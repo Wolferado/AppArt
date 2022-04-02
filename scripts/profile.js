@@ -1,3 +1,5 @@
+// Script for user to register and sign in.
+
 var title = document.getElementById("form-title");
 var question = document.getElementById("question");
 var questionLink = document.getElementById("question-link");
@@ -74,14 +76,12 @@ function registerUserIntoLocalStorage() {
     localStorage.setItem("password_" + currentRecord, registerPassword.value);
     localStorage.setItem("email_" + currentRecord, registerEmail.value);
 
-    // TODO: Fix to save interests
     let interests = "";
-    for(let i = 0; i < registerForm.getElementsByClassName("messageCheckbox").length; i++) {
-        if(registerForm.getElementsByClassName("messageCheckbox")[i].checked) {
-            interests += registerForm.getElementsByClassName("messageCheckbox")[i].value + " ";
+    for(let i = 0; i < registerForm.getElementsByTagName("input").length; i++) {
+        if(registerForm.getElementsByTagName("input")[i].checked) {
+            interests += registerForm.getElementsByTagName("input")[i].value + " ";
         }
     }
-    console.log(registerForm.getElementsByClassName("messageCheckbox"));
 
     localStorage.setItem("interests_" + currentRecord, interests);
 

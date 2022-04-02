@@ -1,3 +1,5 @@
+//Script dedicated to check, if user logged in.
+
 (function checkIfUserLoggedIn() {
     if(sessionStorage.getItem("username") != null) {
         let profileLink = document.getElementsByTagName("a")[2];

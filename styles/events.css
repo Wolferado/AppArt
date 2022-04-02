@@ -16,5 +16,19 @@
 
 #event-section {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card {
+    width: 40%;
+    height: 40%;
+    border: 3px #05595B solid;
+    border-radius: 20px;
+}
+
+.card img {
+    width: 60%;
+    height: 60%;
 }

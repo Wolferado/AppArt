@@ -1,3 +1,5 @@
+//Script dedicated to landing page.
+
 const events = [];
 
 var eventContainer = document.getElementById("event-container");

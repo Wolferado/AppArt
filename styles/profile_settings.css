@@ -1,9 +1,14 @@
-#change-form {
-    display: none;
-    flex-direction: column;
-    width: 60%;
-}
-
 #profile-info {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#profile-settings {
+    display: flex;
+    justify-content: center;
+}
+
+#profile-settings, input {
+    margin: 20px;
 }

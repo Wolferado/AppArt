@@ -19,21 +19,16 @@
     </header>
     <section>
         <div id="profile-info">
-            <span>Username: </span>
-            <span>Email: </span>
-            <span>Interests: </span>
-        </div>
-        <div id="change-form">
-            <label for="username">Username</label>
-            <input type="text" name="username">
-            <label for="email">Email</label>
-            <input type="email" name="username" disabled="true">
-            <span>Interests</span>
-            <label for="artist">Artist</label>
-            <input type="checkbox">
+            <h3>Username: </h3>
+            <h3>Email: </h3>
+            <h3>Interests: 
+                <label for="artist">Artist</label>
+                <input type="checkbox" value="artist" id="artist">
+                <label for="photographer">Photographer</label>
+                <input type="checkbox" value="photographer" id="photographer">
+            </h3>
         </div>
         <div id="profile-settings">
-            <input id="change-info-button" type="button" value="Change Information">
             <input id="sign-out-button" type="button" value="Sign Out">
             <input id="delete-account-button" type="button" value="Delete Account">
         </div>
