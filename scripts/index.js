@@ -9,6 +9,6 @@ var eventContainer = document.getElementById("event-container");
         eventContainer.appendChild(notification);
     }
     else {
-        
+
     }
 })();

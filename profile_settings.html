@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/profile_settings.css">
+    <link rel="stylesheet" href="styles/global.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+    <title>AppArt - Profile Settings</title>
+</head>
+<body>
+    <header>
+        <a href="events.html">Events</a>
+        <a href="index.html">AppArt</a>
+        <a href="profile_settings.html">Profile</a>
+    </header>
+    <section>
+        <div id="profile-info">
+            <span>Username: </span>
+            <span>Email: </span>
+            <span>Interests: </span>
+        </div>
+        <div id="change-form">
+            <label for="username">Username</label>
+            <input type="text" name="username">
+            <label for="email">Email</label>
+            <input type="email" name="username" disabled="true">
+            <span>Interests</span>
+            <label for="artist">Artist</label>
+            <input type="checkbox">
+        </div>
+        <div id="profile-settings">
+            <input id="change-info-button" type="button" value="Change Information">
+            <input id="sign-out-button" type="button" value="Sign Out">
+            <input id="delete-account-button" type="button" value="Delete Account">
+        </div>
+    </section>
+</body>
+</html>
+<script src="scripts/user.js"></script>
+<script src="scripts/settings.js"></script>

@@ -1,0 +1,9 @@
+#change-form {
+    display: none;
+    flex-direction: column;
+    width: 60%;
+}
+
+#profile-info {
+    display: flex;
+}

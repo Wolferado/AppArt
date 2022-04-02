@@ -1,3 +1,40 @@
+#user-form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-left: 15%;
+}
+
+#user-form h2 {
+    align-self: center;
+}
+
 #registration-form {
     display: none;
+    flex-direction: column;
+}
+
+#registration-form label {
+    margin-top: 30px;
+}
+
+#registration-form input:nth-last-child(1) {
+    margin-top: 15px;
+    width: 30%;
+    align-self: flex-end;
+}
+
+#sign-in-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#sign-in-form label {
+    margin-top: 30px;
+}
+
+#sign-in-form input:nth-last-child(1) {
+    margin-top: 15px;
+    width: 30%;
+    align-self: flex-end;
 }
