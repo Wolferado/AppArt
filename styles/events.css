@@ -4,3 +4,17 @@
     --secondary-color: #05595B;
     --main-color: #062C30;
 }
+
+#intro-section {
+    display: flex;
+    justify-content: center;
+}
+
+#intro-section h1 {
+    font-size: 48px;
+}
+
+#event-section {
+    display: flex;
+    justify-content: center;
+}
