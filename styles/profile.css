@@ -1,8 +1,9 @@
 #user-form {
+    background-image: url("/materials/london\ -\ 01.png");
     display: flex;
     flex-direction: column;
-    width: 70%;
-    margin-left: 15%;
+    width: 100%;
+    height: 100vh;
 }
 
 #user-form h2 {
@@ -37,4 +38,16 @@
     margin-top: 15px;
     width: 30%;
     align-self: flex-end;
+}
+
+nav a {
+    margin: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav a:nth-of-type(5) {
+    color: #FED831;
+    border: 1px #FED831 solid;
 }
