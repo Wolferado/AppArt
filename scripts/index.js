@@ -1,4 +1,4 @@
-//Script dedicated to landing page.
+//Script dedicated to landing page. 
 
 const eventTitles = ["Sketch in Nature", "Drink and Draw", "Sketching", "Sketch Still Life", "Sketch and Chips", "Sketch Sketch"];
 const eventDescriptions = ["Experience the long awaited drawing vibes beyond 4 walls", "Vine is never bad for the creativity, especially with the right amount", "Sketching is never a bad thing, especially in practice", "Being still has its own beauty that you can express", "Food makes our body works, food for our creativy helps us do our best", "Small sketches on different topics can provide a huge idea"];
@@ -23,8 +23,8 @@ var eventContainer = document.getElementById("event-container");
             let description = document.createElement("p");
             description.textContent = eventDescriptions[i];
             let button = document.createElement("input");
+            button.type = "button";
             button.value = "Take AppArt";
-            button.addEventListener('click', function() {window.location.href="events.html";})
             let link = document.createElement("a");
             link.textContent = "Learn More";
 
