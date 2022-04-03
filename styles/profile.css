@@ -19,7 +19,8 @@ form {
 #user-form div {
     color: #FFFFFF;
     align-self: center;
-    margin-top: 50px;
+    margin-top: 300px;
+    justify-self: flex-end;
 }
 
 #registration-form {
