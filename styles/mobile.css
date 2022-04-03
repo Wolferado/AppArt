@@ -1,6 +1,7 @@
 @media (max-width: 1024px) {
     /*--- LANDING PAGE ---*/
     a .material-icons {
+        display: auto;
         position: absolute;
         left: 85%;
         top: 1%;
