@@ -25,6 +25,7 @@ var eventContainer = document.getElementById("event-container");
             let button = document.createElement("input");
             button.type = "button";
             button.value = "Take AppArt";
+            button.addEventListener('click', changeToEventPage);
             let link = document.createElement("a");
             link.textContent = "Learn More";
 
@@ -37,3 +38,7 @@ var eventContainer = document.getElementById("event-container");
         }
     }
 })();
+
+function changeToEventPage() {
+    window.location.href="events.html";
+}

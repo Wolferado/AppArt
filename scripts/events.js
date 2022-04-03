@@ -9,7 +9,7 @@ var overlayContainer = document.getElementById("intro-section");
 
 for (let i = 0; i < eventCards.length; i++) {
     let button = eventCards[i].getElementsByTagName("input")[0];
-    button.removeEventListener('click', openEvent);
+    button.removeEventListener('click', changeToEventPage);
     button.addEventListener('click', function() {
         openEvent(i-1);
     });
