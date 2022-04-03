@@ -5,6 +5,6 @@
         let profileLink = document.getElementsByTagName("a")[4];
         profileLink.style.border = "none";
         profileLink.href = "profile_settings.html";
-        profileLink.textContent = sessionStorage.getItem("username") + " profile";
+        profileLink.textContent = sessionStorage.getItem("username") + " - profile";
     }
 })();

@@ -61,7 +61,7 @@ nav a:last-of-type {
 #intro-section {
     top: 0px;
     left: 0px;
-    background-image: url("/materials/london\ -\ 01.png");
+    background-image: url("https://raw.githubusercontent.com/Wolferado/AppArt/main/materials/london%20-%2001.png");
     background-size:cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -83,19 +83,21 @@ nav a:last-of-type {
     color: #FFFFFF;
 }
 
-.section-text span {
+.section-text p {
     font-size: 40px;
     color: #ffffff7c;
+    margin-bottom: 40px;
 }
 
-.section-text input {
+.section-text a {
     font-size: 28px;
     font-weight: 500;
     background-color: #FED831;
     color: #000000;
     box-shadow: 0px 2px 5px #000000;
+    border: none;
     border-radius: 10px;
-    margin-top: 40px;
+    margin-top: 1;
     padding: 15px 60px 15px 60px;
     cursor: pointer;
 }
@@ -123,11 +125,15 @@ nav a:last-of-type {
     align-self: center;
 }
 
+#activities div img:nth-of-type(2) {
+    margin-top: -25%;
+}
+
 #activities div span {
     display: flex;
     font-size: 20px;
     align-self: center;
-    margin-top: 20%;
+    margin-top: 25px;
 }
 
 #info-section h1 {
@@ -185,6 +191,8 @@ nav a:last-of-type {
     font-weight: 500;
     background-color: #FED831;
     color: #000000;
+    border: none;
+    padding: 10px 0px 10px 0px;
     box-shadow: 0px 2px 5px #8e8e8e;
     border-radius: 10px;
     width: 90%;
@@ -199,18 +207,60 @@ nav a:last-of-type {
     grid-column: 2;
     text-align: center;
     align-self: center;
+    cursor: not-allowed;
+}
+
+#testimonials {
+    background-color: #6842EFCC;
+    border: 2;
+    outline: none;
+    cursor: not-allowed;
+    width: 100%;
+}
+
+#more-info {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 40px;
+}
+
+#more-info div {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+#more-info img {
+    padding: 30px;
+    align-self: center;
+    width: 80%;
+    height: 80%;
+}
+
+#more-info div a {
+    border: 3px #FED831 solid;
+    border-radius: 8px;
+    cursor: not-allowed;
+    width: 20%;
+    align-self: center;
+    padding: 10px 20px 10px 20px;
 }
 
 footer {
-    column-count: 4;
-    column-gap: 10%;
-    background-color: #8500c7;
+    background-color: #6842EFCC;
     color: #FFFFFF;
-    height: 150px;
-    justify-content: center;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
     align-items: center;
 }
 
-footer img {
-    columns: 1;
+footer div {
+    display: flex;
+    flex-direction: column;
+}
+
+footer > div > a > i {
+    margin-right: 60px;
 }

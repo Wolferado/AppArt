@@ -1,5 +1,5 @@
 section {
-    background-image: url("/materials/london\ -\ 01.png");
+    background-image: url("https://raw.githubusercontent.com/Wolferado/AppArt/main/materials/london%20-%2001.png");
     height: 100vh;
 }
 
@@ -7,6 +7,10 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+#profile-info h3 {
+    color: #FFFFFF;
 }
 
 #profile-settings {

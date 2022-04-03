@@ -24,6 +24,7 @@ var eventContainer = document.getElementById("event-container");
             description.textContent = eventDescriptions[i];
             let button = document.createElement("input");
             button.value = "Take AppArt";
+            button.addEventListener('click', function() {window.location.href="events.html";})
             let link = document.createElement("a");
             link.textContent = "Learn More";
 

@@ -1,43 +1,91 @@
 #user-form {
-    background-image: url("/materials/london\ -\ 01.png");
+    background-image: url("https://raw.githubusercontent.com/Wolferado/AppArt/main/materials/london%20-%2001.png");
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 100vh;
+    height: 120vh;
+}
+
+form {
+    color: #FFFFFF;
 }
 
 #user-form h2 {
     align-self: center;
+    color: #FFFFFF;
+    justify-self: center;
+}
+
+#user-form div {
+    color: #FFFFFF;
+    align-self: center;
+    margin-top: 50px;
 }
 
 #registration-form {
+    align-self: center;
     display: none;
     flex-direction: column;
+    width: 60%;
+    align-items: center;
+    height: 50vh;
+}
+
+#registration-form input {
+    border-radius: 20px;
+    padding-left: 10px;
+}
+
+#registration-form span {
+    margin-top: 40px;
+}
+
+#registration-form div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
 }
 
 #registration-form label {
     margin-top: 30px;
 }
 
-#registration-form input:nth-last-child(1) {
-    margin-top: 15px;
+#registration-form input:nth-last-of-type(1) {
+    margin-top: 50px;
     width: 30%;
-    align-self: flex-end;
+    background-color: #FED831;
+    font-weight: bold;
+    padding-left: 0px;
+}
+
+#registration-form div input:nth-last-child(1) {
+    margin-top: 0px;
 }
 
 #sign-in-form {
+    align-self: center;
     display: flex;
     flex-direction: column;
+    width: 50%;
+    align-items: center;
 }
 
 #sign-in-form label {
     margin-top: 30px;
 }
 
+#sign-in-form input {
+    border-radius: 20px;
+    padding-left: 10px;
+}
+
 #sign-in-form input:nth-last-child(1) {
-    margin-top: 15px;
+    margin-top: 50px;
     width: 30%;
-    align-self: flex-end;
+    align-self: center;
+    background-color: #FED831;
+    font-weight: bold;
+    padding-left: 0px;
 }
 
 nav a {
