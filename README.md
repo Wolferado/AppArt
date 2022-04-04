@@ -4,7 +4,7 @@ This repository contains files for a website *"AppArt - Better than being apart"
 
 This project was created during WindHackers 48-hour TravelHack 2022 hackathon.
 
-Idea was provided by Ieva Kaula ([Ota dabā][Ota dabā]).
+Idea was provided by Ieva Kaula.
 
 Website is made with HTML, CSS and JavaScript.
 
@@ -24,5 +24,3 @@ Mobile:
 <img src="https://github.com/Wolferado/AppArt/blob/main/materials/PC_View_Events.jpeg?raw=true" width="60%" height="40%" alt="https://github.com/Wolferado/AppArt/blob/main/materials/PC_View_Events.jpeg?raw=true">
   
 </div>
-
-[Ota Dabā]: https://www.facebook.com/ota.daba/
