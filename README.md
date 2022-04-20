@@ -13,12 +13,12 @@ Link: _https://wolferado.github.io/AppArt/_
 ## Preview:
 <div align="center">
 
-PC:
+Mobile:
 
 <img src="https://github.com/Wolferado/AppArt/blob/main/materials/Mobile_View_LandingPage.png?raw=true" width="49%" height="49%" alt="https://github.com/Wolferado/AppArt/blob/main/materials/Mobile_View_LandingPage.png?raw=true">
 <img src="https://github.com/Wolferado/AppArt/blob/main/materials/Mobile_View_Events.png?raw=true" width="49%" height="49%" alt="https://github.com/Wolferado/AppArt/blob/main/materials/Mobile_View_Events.png?raw=true">
 
-Mobile:
+PC:
 
 <img src="https://github.com/Wolferado/AppArt/blob/main/materials/PC_View_LandingPage.jpeg?raw=true" width="40%" height="50%"  alt="https://github.com/Wolferado/AppArt/blob/main/materials/PC_View_LandingPage.jpeg?raw=true">
 <img src="https://github.com/Wolferado/AppArt/blob/main/materials/PC_View_Events.jpeg?raw=true" width="60%" height="40%" alt="https://github.com/Wolferado/AppArt/blob/main/materials/PC_View_Events.jpeg?raw=true">
